@@ -15,31 +15,29 @@ use Artesaos\SEOTools\Facades\TwitterCard;
 class SupportController extends Controller
 {
     public function index(){
-        SEOMeta::setTitle("Vital Neon Support | VitalNeon");
-        SEOMeta::setDescription("At VitalNeon, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with VitalNeon.");
-        SEOMeta::setCanonical("https://vitalneon.com/support");
+        SEOMeta::setTitle("Vital Neon Support | NeonExpression");
+        SEOMeta::setDescription("At NeonExpression, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with NeonExpression.");
+        SEOMeta::setCanonical("https://neonexpression/support");
         SEOMeta::setRobots("index, follow");
-        SEOMeta::addMeta("apple-mobile-web-app-title", "VitalNeon");
-        SEOMeta::addMeta("application-name", "VitalNeon");
+        SEOMeta::addMeta("apple-mobile-web-app-title", "NeonExpression");
+        SEOMeta::addMeta("application-name", "NeonExpression");
 
-        OpenGraph::setTitle("Vital Neon Support | VitalNeon");
-        OpenGraph::setDescription("At VitalNeon, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with VitalNeon."); 
-        OpenGraph::setUrl("https://vitalneon.com/support");
+        OpenGraph::setTitle("Vital Neon Support | NeonExpression");
+        OpenGraph::setDescription("At NeonExpression, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with NeonExpression."); 
+        OpenGraph::setUrl("https://neonexpression/support");
         OpenGraph::addProperty("type", "website");
         OpenGraph::addProperty("locale", "eu");
-        OpenGraph::addImage("https://vitalneon.com/assets/seo/support-2.png");
-        OpenGraph::addImage("https://vitalneon.com/assets/seo/support-1.png", ["height" => 400, "width" => 760]);
+        OpenGraph::addImage("https://neonexpression.com/assets/neon_expression_banner.png");
 
-        TwitterCard::setTitle("Vital Neon Support | VitalNeon");
-        TwitterCard::setSite("@vitalneon");
-        TwitterCard::setImage("https://vitalneon.com/assets/seo/support-2.png");
-        TwitterCard::setDescription("At VitalNeon, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with VitalNeon.");
+        TwitterCard::setTitle("Vital Neon Support | NeonExpression");
+        TwitterCard::setSite("@neonexpression");
+        TwitterCard::setImage("https://neonexpression.com/assets/neon_expression_banner.png");
+        TwitterCard::setDescription("At NeonExpression, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with NeonExpression.");
 
-        JsonLd::setTitle("Vital Neon Support | VitalNeon");
-        JsonLd::setDescription("At VitalNeon, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with VitalNeon.");
-        JsonLd::addImage("https://vitalneon.com/assets/seo/support-2.png");
+        JsonLd::setTitle("Vital Neon Support | NeonExpression");
+        JsonLd::setDescription("At NeonExpression, we believe in providing exceptional customer support every step of the way. Our knowledgeable and friendly support team is always here to help with any questions or concerns you may have about our products and services. Whether you need assistance with a custom neon sign order, have a question about shipping, or need help with installation, we're here to make sure you have a seamless and stress-free experience. Contact us today and let us help you make your vision a reality with NeonExpression.");
+        JsonLd::addImage("https://neonexpression.com/assets/neon_expression_banner.png");
         JsonLd::setType("WebSite");
-        JsonLd::addImage("https://vitalneon.com/assets/seo/support-1.png", ["height" => 400, "width" => 760]);
         return  view('support');
     }
 
