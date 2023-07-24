@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@1,100&family=Fira+Code:wght@400;500&family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Allura&family=Dancing+Script:wght@500&family=MonteCarlo&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Rubik', sans-serif;*/
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-light; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+body{
+    @apply bg-dark;
+}
+
+h1, h2, h3{
+    font-family: 'Epilogue', sans-serif;
+}
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+.rubik{
+    font-family: 'Rubik', sans-serif;
+}
+.choose{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.p1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.outfit{
+    font-family: 'Outfit', sans-serif;
+}
+
+.bebas{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.code{
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+}
+
+nav a, nav .category{
+    font-family: 'Abel', sans-serif;
+    @apply text-lg font-medium;
+}
+.featured{
+    font-family: 'Abel', sans-serif;
+}
+
+.container{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+[x-cloak]{
+    display: none !important;
+}
+
+@font-face {
+    font-family: 'amejo';
+    src: url('../fonts/amejo.ttf');
+}
+.amejo {
+    font-family: 'amejo';
+}
+@font-face {
+    font-family: 'artelyinks';
+    src: url('../fonts/artelyinks.ttf');
+}
+.artelyinks {
+    font-family: 'artelyinks';
+}
+@font-face {
+    font-family: 'bayshore';
+    src: url('../fonts/bayshore.otf');
+}
+.bayshore {
+    font-family: 'bayshore';
+}
+@font-face {
+    font-family: 'bendungan';
+    src: url('../fonts/bendungan.ttf');
+}
+.bendungan {
+    font-family: 'bendungan';
+}
+@font-face {
+    font-family: 'beon';
+    src: url('../fonts/beon.ttf');
+}
+.beon {
+    font-family: 'beon';
+}
+@font-face {
+    font-family: 'billistone';
+    src: url('../fonts/billistone.otf');
+}
+.billistone {
+    font-family: 'billistone';
+}
+@font-face {
+    font-family: 'carbono';
+    src: url('../fonts/carbono.ttf');
+}
+.carbono {
+    font-family: 'carbono';
+}
+@font-face {
+    font-family: 'cliquelly';
+    src: url('../fonts/cliquelly.ttf');
+}
+.cliquelly {
+    font-family: 'cliquelly';
+}
+@font-face {
+    font-family: 'colon-mono';
+    src: url('../fonts/colon-mono.ttf');
+}
+.colon-mono {
+    font-family: 'colon-mono';
+}
+@font-face {
+    font-family: 'daisy-chain';
+    src: url('../fonts/daisy-chain.ttf');
+}
+.daisy-chain {
+    font-family: 'daisy-chain';
+}
+@font-face {
+    font-family: 'garnet-script';
+    src: url('../fonts/garnet-script.ttf');
+}
+.garnet-script {
+    font-family: 'garnet-script';
+}
+@font-face {
+    font-family: 'gotham';
+    src: url('../fonts/gotham.otf');
+}
+.gotham {
+    font-family: 'gotham';
+}
+@font-face {
+    font-family: 'greyton';
+    src: url('../fonts/greyton.otf');
+}
+.greyton {
+    font-family: 'greyton';
+}
+@font-face {
+    font-family: 'gruenewald';
+    src: url('../fonts/gruenewald.ttf');
+}
+.gruenewald {
+    font-family: 'gruenewald';
+}
+@font-face {
+    font-family: 'highway';
+    src: url('../fonts/highway.ttf');
+}
+.highway {
+    font-family: 'highway';
+}
+@font-face {
+    font-family: 'love-malia';
+    src: url('../fonts/love-malia.ttf');
+}
+.love-malia {
+    font-family: 'love-malia';
+}
+@font-face {
+    font-family: 'magnolia';
+    src: url('../fonts/magnolia.ttf');
+}
+.magnolia {
+    font-family: 'magnolia';
+}
+@font-face {
+    font-family: 'market';
+    src: url('../fonts/market.ttf');
+}
+.market {
+    font-family: 'market';
+}
+@font-face {
+    font-family: 'mikagi';
+    src: url('../fonts/mikagi.otf');
+}
+.mikagi {
+    font-family: 'mikagi';
+}
+@font-face {
+    font-family: 'monly';
+    src: url('../fonts/monly.otf');
+}
+.monly {
+    font-family: 'monly';
+}
+@font-face {
+    font-family: 'msmadi';
+    src: url('../fonts/msmadi.ttf');
+}
+.msmadi {
+    font-family: 'msmadi';
+}
+@font-face {
+    font-family: 'nevada';
+    src: url('../fonts/nevada.ttf');
+}
+.nevada {
+    font-family: 'nevada';
+}
+@font-face {
+    font-family: 'palm-canyon';
+    src: url('../fonts/palm-canyon.otf');
+}
+.palm-canyon {
+    font-family: 'palm-canyon';
+}
+@font-face {
+    font-family: 'panatype';
+    src: url('../fonts/panatype.otf');
+}
+.panatype {
+    font-family: 'panatype';
+}
+@font-face {
+    font-family: 'point-soft';
+    src: url('../fonts/point-soft.ttf');
+}
+.point-soft {
+    font-family: 'point-soft';
+}
+@font-face {
+    font-family: 'rename';
+    src: url('../fonts/rename.sh');
+}
+.rename {
+    font-family: 'rename';
+}
+@font-face {
+    font-family: 'retro-signature';
+    src: url('../fonts/retro-signature.otf');
+}
+.retro-signature {
+    font-family: 'retro-signature';
+}
+@font-face {
+    font-family: 'rosemary';
+    src: url('../fonts/rosemary.ttf');
+}
+.rosemary {
+    font-family: 'rosemary';
+}
+@font-face {
+    font-family: 'sahur-bosku';
+    src: url('../fonts/sahur-bosku.ttf');
+}
+.sahur-bosku {
+    font-family: 'sahur-bosku';
+}
+@font-face {
+    font-family: 'saltines';
+    src: url('../fonts/saltines.otf');
+}
+.saltines {
+    font-family: 'saltines';
+}
+@font-face {
+    font-family: 'sandstone';
+    src: url('../fonts/sandstone.otf');
+}
+.sandstone {
+    font-family: 'sandstone';
+}
+@font-face {
+    font-family: 'sci-fied';
+    src: url('../fonts/sci-fied.ttf');
+}
+.sci-fied {
+    font-family: 'sci-fied';
+}
+@font-face {
+    font-family: 'setting-fires';
+    src: url('../fonts/setting-fires.ttf');
+}
+.setting-fires {
+    font-family: 'setting-fires';
+}
+@font-face {
+    font-family: 'starstoles-free';
+    src: url('../fonts/starstoles-free.ttf');
+}
+.starstoles-free {
+    font-family: 'starstoles-free';
+}
+@font-face {
+    font-family: 'suddenlydemo-jrn5a';
+    src: url('../fonts/suddenlydemo-jrn5a.otf');
+}
+.suddenlydemo-jrn5a {
+    font-family: 'suddenlydemo-jrn5a';
+}
+@font-face {
+    font-family: 'suddenly-regular';
+    src: url('../fonts/suddenly-regular.ttf');
+}
+.suddenly-regular {
+    font-family: 'suddenly-regular';
+}
+@font-face {
+    font-family: 'torusbiline-bold';
+    src: url('../fonts/torusbiline-bold.ttf');
+}
+.torusbiline-bold {
+    font-family: 'torusbiline-bold';
+}
+@font-face {
+    font-family: 'torusbold';
+    src: url('../fonts/torusbold.ttf');
+}
+.torusbold {
+    font-family: 'torusbold';
+}
+@font-face {
+    font-family: 'violia-free';
+    src: url('../fonts/violia-free.ttf');
+}
+.violia-free {
+    font-family: 'violia-free';
+}
+@font-face {
+    font-family: 'wiretype';
+    src: url('../fonts/wiretype.ttf');
+}
+.wiretype {
+    font-family: 'wiretype';
+}
+@font-face {
+    font-family: 'yarorg';
+    src: url('../fonts/yarorg.ttf');
+}
+.yarorg {
+    font-family: 'yarorg';
+}
+
+.neonText{
+    font-family: 'billistone';
+    text-shadow:
+    0 0 7px #ff5500,
+    0 0 7px #ff5500,
+    0 0 22px #ff540066,
+    0 0 22px #ff540066,
+    0 0 22px #ff540066,
+    0 0 22px #ff540066,
+    0 0 22px #ff540066,
+    0 0 22px #ff540066;
+}
+
+.input{
+    @apply w-full mt-2 bg-dark rounded border border-gray-800 focus:border-main focus:ring-4 focus:ring-main-light text-base outline-none text-gray-300 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out mb-3;
+}
+
+.submit-btn{
+    @apply py-3 text-center bg-gray-300 w-full text-gray-700 font-bold text-lg rounded-md flex items-center justify-center;
+}
+
+.success{
+    @apply bg-green-600 bg-opacity-20 p-3 rounded-lg border text-green-400 text-center border-green-700 mb-2;
+}
+
+.failed{
+    @apply text-red-600 border border-red-700 bg-red-600 bg-opacity-20 p-3 rounded-lg;
+}
+
+.error{
+    @apply text-red-600 my-1;
+}
+
+.main-body{
+    @apply text-white;
+}
+
+.main-body p {
+    @apply leading-7 mb-2;
+}
+
+.main-body h2, .main-body h3{
+    @apply text-gray-200 font-bold mb-3;
+}
+
+.main-body h2{
+    @apply text-3xl;
+}
+
+.main-body h3{
+    @apply text-2xl;
+}
+
+.main-body p span{
+    @apply bg-gray-600 p-3 rounded-lg;
+}
+
+.links a:hover{
+    @apply text-main;
+}
+
+.pagination p{
+    @apply text-white;
+}
