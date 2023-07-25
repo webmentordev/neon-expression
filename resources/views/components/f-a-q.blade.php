@@ -5,8 +5,8 @@
         </div>
         <div class="w-full cursor-pointer mb-3" x-data="{ open: false }">
             <div class="p-6 bg-white rounded-lg text-gray-600">
-                <h2 x-on:click="open = !open" class="flex items-center justify-between font-semibold">What is VitalNeon, and what products or services does it offer? <i class="text-2xl 575px:hidden max-w-[200px]">+</i></h2>
-                <p x-show="open" class="bg-gray-100 p-6 rounded-lg mt-3">VitalNeon is a premier e-commerce website that specializes in selling high-quality and stylish neon signs for a variety of occasions and categories. Our product line includes custom neon signs, wedding neon signs, party neon signs, sports neon signs, music neon signs, and many more.</p>
+                <h2 x-on:click="open = !open" class="flex items-center justify-between font-semibold">What is NeonExpression, and what products or services does it offer? <i class="text-2xl 575px:hidden max-w-[200px]">+</i></h2>
+                <p x-show="open" class="bg-gray-100 p-6 rounded-lg mt-3">NeonExpression is a premier e-commerce website that specializes in selling high-quality and stylish neon signs for a variety of occasions and categories. Our product line includes custom neon signs, wedding neon signs, party neon signs, sports neon signs, music neon signs, and many more.</p>
             </div>
         </div>
 
@@ -65,7 +65,7 @@
         <div class="w-full cursor-pointer mb-3" x-data="{ open: false }">
             <div class="p-6 bg-white rounded-lg text-gray-600">
                 <h2 x-on:click="open = !open" class="flex items-center justify-between font-semibold">What is your privacy policy and how do you handle customer information? <i class="text-2xl 575px:hidden max-w-[200px]">+</i></h2>
-                <p x-show="open" class="bg-gray-100 p-6 rounded-lg mt-3">At VitalNeon, we take your privacy and security very seriously. We only collect your email address for communication purposes, and we never share your personal information with third parties. Our payment system, Stripe, provides secure and reliable payment processing, ensuring that your credit card information is safe and secure.</p>
+                <p x-show="open" class="bg-gray-100 p-6 rounded-lg mt-3">At NeonExpression, we take your privacy and security very seriously. We only collect your email address for communication purposes, and we never share your personal information with third parties. Our payment system, Stripe, provides secure and reliable payment processing, ensuring that your credit card information is safe and secure.</p>
             </div>
         </div>
 
